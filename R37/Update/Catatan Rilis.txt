@@ -1,0 +1,435 @@
+Cara Update:
+1.	Menggunakan aplikasi updater yang ada di folder
+2. 	Urutan updater urut mulai nomor 1, 2 dan 3
+3.	Khusus pemda yang sudah menerapkan SIMDA PENDAPATAN ONLINE 
+	Update nomor 3 TIDAK PERLU DILAKUKAN
+
+Versi : 1.3.0.05 Release 37
+1. 	Perbaikan Menu Ekspor ke Aplikasi SIMDA Keuangan
+2. 	Penambahan Inputan Potensi Pajak, di menu Pendataan Wajib Pajak
+3.	Tambahan Laporan Potensi Pajak Per Wajib Pajak
+4.	Tambahan Laporan Rekapitulasi Potensi Pajak Daerah
+5. 	Perbaikan Laporan Daftar SKPD Self Assesment
+6.	Perbaikan Laporan Daftar Penerimaan Bulanan
+7. 	Perbaikan Menu Inputan Nota Tambahan BPHTB
+8. 	Perbaikan inputan anggaran, bisa menambahkan kode selain pajak dan retribusi
+===
+9.	Perbaikan inputan SSPD Masa, kolom keterangan otomatis terisi, mengambil dari
+	dokumen Ketetapan
+10. 	Perbaikan inputan validasi, di menu Pembukuan, Nama bank otomatis terisi saat
+	klik tambah.
+11.	Tambahan inputan di pendaftaran wajib pajak, alamat email dan no hp
+12. 	Perbaikan Pengaturan User Menu
+13. 	Perbaikan Proses Piutang (ditambahkan pengaruh adanya angsuran pajak)
+14. 	---- Perbaikan Laporan
+
+
+Versi : 1.3.0.04 Release 36
+1. 	Tambahan menu permohonan angsuran -
+2. 	Tambahan menu persetujuan angsuran -
+3. 	Tambahan menu koneksi data dengan simda keuangan, 
+	untuk ekspor impor ke simda keuangan -
+4. 	Tambahan laporan permohonan angsuran -
+5. 	Tambahan laporan permohonan jadwal angsuran -
+6. 	Tambahan laporan persetujuan permohonan angsuran -
+7. 	Perbaikan pada inputan Surat Tagihan Pajak Daerah, 
+	berkaitan dengan tambahan menu persetujuan permohonan angsuran -
+8. 	Tambahan laporan Rekapitulasi permohonan angsuran -
+9. 	Tambahan laporan Rekapitulasi persetujuan angsuran -
+10. 	Perbaikan inputan SPTPD yang langsung hapus jika ada data dengan nomor kosong
+    	karena gagal simpan nomor otomatis -
+11.	Perbaikan inputan SKRD, Uraian keterangan otomatis diambil dari 
+	inputan SPTRD -
+12.	Perbaikan inputan SSRD Masa -, SSRD KB- dan SSRD Sanksi-, uraian keterangan 
+	otomatis diambil dari inputan SKRD, STRD, dan Saldo Awal Piutang
+13.	Perbaikan inputan STRD, uraian ketarangandiambil otomatis dari
+	inputan saldo awal dan inputan SKRD
+14. 	Perbaikan Laporan Daftar Induk Wajib Pajak, tambah filter periode
+15. 	Penambahan fasilitas penomoran otomatis SPTRD dan SKRD 
+16.	Tambahan/Perbaikan penandatangan dokumen pada laporan-laporan di
+	bendahara penerimaan
+
+Versi : 1.3.0.03 Release 35R3
+1. 	Tambahan Report Daftar SPTPD Online
+2. 	Tambahan Report Daftar SSPD Online
+3.	Perbaikan Report Daftar SSPD, lebih detail sampai per kode rekening
+4. 	Perbaikan Report Daftar Mutasi Pendapatan
+5. 	Tambahan Menu Inputan Nota Tambahan BPHTB
+6.	Tambahan Report Nota Tambahan BPHTB - ok
+7. 	Tambahan Menu Inputan SKPD-KBT BPHTB - ok
+8. 	--
+9. 	Perbaikan Laporan SKPD-KBT karena ditambah BPHTB
+10. 	Perbaikan Laporan Daftar SKPD Sefl Assesment
+11. 	Perbaikan Laporan Daftar SKPD Self Assesment dan Pembayaran nya
+12. 	Perbaikan Inputan di menu SSPD-KB ditambahkan jenis pajak BPHTB
+13. 	Perbaikan Laporan SSPD-KB 
+14.	Perbaikan Inputan di menu SSPD-Sanksi ditambahkan jenis pajak BPHTB 
+15. 	Perbaikan Laporan SSPD-Sanksi
+
+
+Versi : 1.3.0.02 Release 35R2
+1. 	Tambahan report Mutasi Retribusi
+2. 	Perbaikan report Kartu data retribusi
+3.	Perbaikan Laporan Daftar SPTPD WP Self Assesment 
+4. 	Kontrol SPTRD Terhadap SKRD
+5. 	Kontrol SKRD terhadap SSRD
+6.	Perbaikan Laporan SKRD
+
+Versi : 1.3.0.01 Release 35R1
+1.	Perbaikan report SKPD
+2.	Perbaikan report Kartu Data Pajak Reklame
+3.	Perbaikan Report Register STPD
+4.	Perbaikan inputan Saldo Awal Kas Di Bendahara Penerimaan
+5.	Perbaikan tombol pembuatan kode pembayaran
+
+
+Versi : 1.3.0.00 Release 35
+==================================================================================================
+01. Tambahan Menu Simda Web > Register Aproval untuk pembuatan user id dan pass
+    untuk WP yang akan melakukan pelaporan(SPTPD) secara online
+02. Tambahan menu Simda Web > Bendahara Penrimaan > Pajak untuk menfasilitasi 
+    rekonsiliasi pembayaran pajak lewat bank online
+03. Menu Impor SISMIOP dihilangkan
+04. Tambahan setting untuk pembayaran Penomoran BPHTB secara otomatis
+05. Tambahan penomoran BPHTB secara otomatis
+06. Tambahan menu validasi untuk SSPD BPHTB
+07. Tambahan laporan Register Validasi SSPD
+08. Tambahan tombol untuk membuat kode pembayaran di menu pembuatan SPTPD 
+    termasuk untuk BPHTB
+09. Laporan SKPD, SKPD-T, SKPD-N, SKPD-KB, SKPD-KBT dan SKPD-LB ditambahkan di menu
+    laporan
+10. Tambahan kode provinsi dan kode kabupaten pada data umum pemda.
+11. Perbaikan laporan Pajak
+12. Perbaikan laporan Retribusi
+13. Penambahan tombol kode bayar di inputan SKPD, SKPD-T, SKPD-KB dan SKPD-KBT 
+14. Penambahan tombol kode bayar di inputan STPD
+15. Penambahan tombol kode bayar di inputan saldo awal piutang pajak
+16. Penambahan tombol kode bayar di inputan sanksi SKPD
+17. Penambahan tombol kode bayar di inputan sanksi STPD
+18. Perbaikan fasilitas pencarian.
+19. Perbaikan Ekspor/impor ke SIMDA Keuangan menyesuaikan Rillis 12
+20. Tambahan Laporan Pembukuan Retribusi : Penerimaan Piutang Retribusi 
+    dan Daftar Pendapatan Diterima Dimuka-Retribusi
+21. Penambahan Fasilitas Barcode pada Laporan SPTPD, SKPD, dan STPD
+  
+
+
+
+Versi : 1.2.1.03 Release 34 Tambahan 2
+========================================================================================
+01. Perbaikan Laporan Umur Piutang
+02. Perbaikan Laporan Penerimaan Piutang
+03. Perbaikan Laporan SPTPD Pajak Air Tanah
+
+Versi : 1.2.1.03 Release 34 Tambahan 1
+========================================================================================
+01. Perbaikan Laporan Pendapatan Diterima Dimuka
+02. Perbaikan Laporan Kartu Data Pajak Hotel
+03. Perbaikan Laporan Kartu Data Pajak Hiburan
+04. Perbaikan Laporan Kartu Data Pajak Penerangan Jalan
+05. Perbaikan Laporan Kartu Data Pajak Restoran
+06. Perbaikan Laporan Kartu Data Pajak Reklame
+
+Versi : 1.2.1.03 Release 34
+========================================================================================
+01. Perbaikan inputan nota perhitungan pajak, berkaitan dengan pembulatan.
+02. Penambahan fasilitas perhitungan pajak mineral dengan menambah parameter perhitungan
+    pajak.
+03. Penyesuaian inputan SPTPD untuk pajak mineral, akibat penambahan parameter 
+    perhitungan pajak mineral.
+04. Perbaikan inputan SSPD Masa Self Assesment, berupa control, apabila telah dilakukan
+    pembuatan nota perhitungan, SSPD tsb tidak bisa dihapus, diubah.
+05. Perbaikan inputan Keberatan Pajak.
+06. Perbaikan inputan SSPD Masa Official Assesment, SSPD Kurang Bayar dan SSPD Sanksi,
+    ditambahkan pilihan Tujuan Pembayaran, apakah untuk keberatan apa non keberatan.
+07. Perbaikan inputan Nota Perhitungan Pajak, dimana satu dokumen SPTPD dapat dibuat 
+    lebih dari satu Nota Perhitungan.
+08. Perbaikan inputan SPTPD-BPHTB berkaitan dengan penomoran dokumen.
+09. Perbaikan inputan Surat Teguran SPTPD, barkaitan dengan fasilitas pencarian wajib
+    pajak.
+10. Perbaikan inputan Nota Perhitungan Pajak dan ketetapan pajak daerah self assesment
+    yang memiliki rincian lebih dari satu.
+11. Perbaikan inputan SPTPD Jabatan, berkaitan dengan fasilitas pencarian wajib pajak
+12. Perbaikan inputan SPTPD-BPHTB dan SSPD-BPHTB, berkaitan dengan inputan agar diurutkan
+    sesuai dengan nomor dokumen SPTPD.
+13. Perbaikan inputan validasi SSPD menjadi lebih sederhana dan mengambil data dari SSPD.
+14. Penambahan menu panggilan di laporan Bendahara Penerimaan Pajak, yaitu BPPS Sanksi dan
+    Register Penerimaan.
+15. Perbaikan inputan saldo awal piutang retribusi, berkaitan dengan fasilitas pencarian
+    wajib pajak.
+16. Inputan Surat Setoran Retribusi Daerah (SSRD), dibuatkan kontrol, sehingga satu 
+    dokumen Surat Ketetapan Retribusi Daerah (SKRD) hanya dapat diinput lebih dari 
+    satu SSRD.
+17. Inputan SSPD Self Assesment, dibuatkan kontrol agar satu SKPD hanya dapat dibayar
+    dengan satu SSPD.
+18. DItambahkan fasilitas pencarian data di menu inputan SPTPD dan SSPD.
+19. Perbaikan Laporan Keputusan Keberatan Pajak
+20. Perbaikan Laporan Daftar SKPD Self dan Pembayaran nya
+21. Perbaikan Laporan Register SKPD Reklame.
+22. Perbaikan Laporan Daftar Wajib Pajak yang Belum Menyampaikan SPTPD
+23. Perbaikan Laporan Register  STPD dan Pembayarannya
+24. Perbaikan Laporan Surat Setoran Pajak Daerah
+25. Perbaikan Laporan Nota Perhitungan Pajak.
+26. Perbaikan Laporan Surat Ketetapan Pajak Daerah 
+27. Perbaikan Laporan Surat Tagihan Pajak Daerah
+28. Perbaikan Laporan SK Pengukuhan Wajib Pajak
+29. Perbaikan Laporan SPTPD Sarang Burung Walet
+30. Perbaikan Laporan SKPD Lebih Bayar
+31. Perbaikan Laporan SSPD BPHTB
+32. Perbaikan Laporan Buku Pembantu Penerimaan Sejenis-Pajak
+33. Perbaikan Laporan Buku Pembantu Penerimaan Sejenis-Sanksi Pajak
+34. Perbaikan Laporan Rekapitulasi STPD
+35. Penambahan Laporan Data Pajak yang Masih Belum Dibayar Per Wajib Pajak.
+36. Penambahan Laporan Daftar Pajak yang Belum Dibayar
+37. Perbaikan Surat Setoran Pajak Daerah(SSRD)
+38. Perbaikan Laporan Buku Pembantu Penerimaan Sejenis – Retribusi
+39. Perbaikan Laporan Realisasi Anggaran Pendapatan.
+40. Penambahan Laporan Saldo Awal Piutang Retribusi
+41. Perbaikan Ekspor Import Ke SIMDA Keu - SKRD
+42. Perbaikan Laporan LRA
+43. Perbaikan Laporan Register SPTRD - SSRD
+44. Perbaikan Copy Antar Tahun, sekalian copy Setting.
+
+
+Versi : 1.2.1.02 Relesea 33
+========================================================================================
+01. Perbaikan inputan form STS (Data Entry Bendahara Penerimaan)
+02. Perbaikan Laporan Mutasi Pendapatan (Laporan Pembukuan)
+03. Perbaikan Laporan Daftar Wajib Pajak Per Kecamatan/ Kel (Laporan Pembukuan)
+04. Perbaikan Laporan Ketetapan Pajak Per Kecamatan/ Kel (Laporan Pembukuan)
+05. Perbaikan Laporan Penerimaan Pajak Per Kecamatan/ Kel (Laporan Pembukuan)
+06. Perbaikan Laporan Piutang Pajak Per Kecamatan/ Kel (Laporan Pembukuan)
+07. Perbaikan Laporan Rekapitulasi Piutang Pajak Per Kecamatan/ Kel (Laporan Pembukuan)
+08. Perbaikan Laporan SSPD BPHTB (Laporan Bendahara Penerimaan)
+09. Perbaikan Laporan Daftar SSPD (Hiburan, Hotel, Mineral, PPJ, Restoran)  (Laporan Bendahara Penerimaan)
+10. Perbaikan Laporan Buku Pembantu Penerimaan Sejenis  (Laporan Bendahara Penerimaan)
+11. Penambahan Laporan Mapping Pajak (Laporan Parameter)
+12. Penambahan Laporan Mapping Retribusi (Laporan Parameter)
+13. Perbaikan Inputan Eksport ke Simda Keuangan dengan ditambah fitur filter tanggal Bukti/ SSPD/ STS/ Penetapan
+14. Penambahan Laporan Buku Kas Umum Restribusi
+
+Versi : 1.2.1.02 Relesea 32
+========================================================================================
+01. Perbaikan SP_Ta_STS.sql untuk inputan
+02. Perbaikan SP_Ta_STS_Rinc.sql untuk inputan
+03. Perbaikan SP_Ta_STS_Rinc_Total.sql untuk inputan
+04. Perbaikan RptMutasi_Pendapatan untuk menampilkan laporan
+05. Perbaikan RptKK_1.sql untuk menampilkan laporan
+06. Perbaikan RptKK_2.sql untuk menampilkan laporan
+07. Perbaikan RptKK_3.sql untuk menampilkan laporan
+08. Perbaikan RptKK_4.sql untuk menampilkan laporan
+09. Perbaikan RptKK_4A.sql untuk menampilkan laporan
+10. Perbaikan RptSSPD_BPHTB.sql untuk menampilkan laporan
+11. Perbaikan RptSPTPD_Hiburan.sql untuk menampilkan laporan
+12. Perbaikan RptSPTPD_Hotel.sql untuk menampilkan laporan
+13. Perbaikan RptSPTPD_Mineral.sql untuk menampilkan laporan
+14. Perbaikan RptSPTPD_PPJ.sql untuk menampilkan laporan
+15. Perbaikan RptSPTPD_Restoran.sql untuk menampilkan laporan
+16. Perbaikan RptBuku_Pembantu_Penerimaan_Sejenis.sql untuk menampilkan laporan
+17. Penambahan RptMapping_Retribusi.sql dan RptMapping_Retribusi.Rpt untuk menampilkan laporan
+18. Penambahan RptMapping_Pajak.sql dan RptMapping_Pajak.Rpt untuk menampilkan laporan
+
+Versi : 1.2.1.02 Beta
+========================================================================================
+
+01. Perbaikan menu SSPD memperhatikan SPTPD sudah memfilter berdasarkan No.SPTPD
+02. Perbaikan menu STPD sudah bisa memfilter berdasarkan No.SKPD.
+03. Perbaikan menu Copi Tahun Pemda dan Copi Tahun Setting di Menu Data Umum Pemda.
+04. Perbaikan menu Proses Saldo Akhir Piutang
+05. Pembuatan Pengaturan Perhitungan Penyisihan berdasarkan ketetapan dan jatuh tempo
+06. Pembuatan Parameter Penyisihan 
+07. Pembuatan Proses Penyisihan pada proses saldo akhir piutang
+08. Perbaikan Filter Eksport, untuk SKPD Nihil tidak dimasukan pada menu Filter Eksport.
+09. Tombol Dokumen di SSPD Sanksi Pajak Sarang Burung Sudah aktif
+10. Nota Tambahan Pajak Penerangan Jalan, Nilai SPTPD sudah sama dengan Nilai Nota Tambahan
+11. Pembulatan di menu SPTPD pada semua Pajak Daerah.
+12. Perbaikan Laporan SKPD Pajak Air Tanah untuk Rincian SKPD yang Double.
+13. Perbaikan SPTPD BPHTB untuk Nomor NOP yang sama.
+14. Perbaikan Scroll Bukti Penerimaan dan Jika di simpan cursor harus ke data paling bawah.
+15. Pembuatan Pembulatan pada Dokumen SPTPD
+16. Dll
+
+
+Versi : 1.2.1.01 
+========================================================================================
+1.   Proses Saldo Piutang Akhir sudah dapat di proses.
+2.   Perbaikan Laporan Kartu Data Hiburan
+3.   Perbaikan Laporan Daftar SSPD
+4.   Perbaikan Laporan Piutang Awal Pajak
+5    Pembuatan Laporan Daftar Pitang Awal Retribusi
+6.   Perbaikan Laporan Buku Pembantu Penerimaan Lain
+7.   Perbaikan Laporan Buku Pembantu Penerimaan Retribusi
+8.   Perbaikan Menu Input Rincian BPHTB PBB
+9.   Pembuatan menu inputan Anggaran
+10. Pembuatan Laporan LRA Pendapatan
+11. Perbaikan menu cari pada menu Bukti Penerimaan
+12. Perbaikan Nota Perhitungan Rincian dari SPTPD Jabatan, sudah bisa di input lebih dari satu Rincian.
+13. Perbaikan No.Nota Perhitungan pada Menu SKPD, yang Nomor Nota Perhitungan Double jika Rincian Nota lebih dari satu. 
+14. Perbaikan SSPD Sanksi Rincian, Rinciannya  bisa di input lebih dari satu rincian.
+15. Perbaikan No Dokumen yang Double pada menu SSPD Kurang Bayar
+16. No.STPD disetting Manual dan Otomatis pada menu Setting
+17. SPPD Masa dibuat 2 pilihan pada menu setting, dapat menggunakan SSPD memperhatikan SPTPD dan SSPD tidak memperhatikan      SPTPD
+18. Perbaikan Laporan Register SPTPD SSPD Self Assesment dan Laporan Register SPTPD SSPD Official Assesment
+19. Perbaikan Laporan Daftar SKPD Self Assesment
+20. Perbaikan menu Penandatangan Dokumen jika tidak memilih jenis dokumen.
+21. Penambahan penandatangan verifikasi pada menu SSPD - BPHTB
+22. Pembuatan Laporan Daftar Piutang Akhir Retribusi
+23. Pembuatan Proses Saldo Piutang akhir Retribusi Daerah.
+24. Perbaikan Laporan Daftar Piutang Awal 
+25. Perbaikan Laporan SSPD-BPHTB, menambah nama penandatangan verifikasi.
+26. Perbaikan Laporan Saldo Piutang Akhir.
+27. Perbaikan Laporan Daftar SPTPD WP Self Assesment
+28. Perbaikan Laporan Daftar SKRD
+29. Perbaikan Laporan DAftar SPTPD WP Official Assesment
+30. Perbaikan Laporan Rekapitulasi SPTPD WP Self Assesment
+31. Perbaikan Laporan Rekapitulasi SPTPD WP Official Assesment
+
+
+Versi : 1.2.0.10 
+========================================================================================
+
+1.  Perbaikan semua Laporan SPTPD
+2.  Perbaikan Laporan Nota Perhitungan Oficial
+3.  Perbaikan Menu Panggilan Laporan Pengukuhan Wajib Pajak
+4.  Penambahan Rincian Pajak Air Tanah, udah bisa dinput untuk satu nomor SPTPD bisa beberapa Jenis Air tanah atau beberapa sumur air tanah
+6.  Perbaikan Tombol Tambah pada menu SKPD, Tidak bisa menambah Nomor SKPD lebih dari satu Nomor.
+7.  Status tidak Aktif pada menu Wajib Pajak, Berfungsi jika WP tidak aktif maka WP tidak muncul di menu SPTPD. 
+8.  Update Menu Eksport Import  SimDa Pendapatan to SISMIOP dengan Database Oracle 11g dan Oracle Development 6i
+9.  Update Menu Nota Perhitungan, Nota Perhitungan Masa tidak bisa menginput data sanksi, Nota Perhitungan yg ada sanksi di input pada Nota Tambahan.
+10. Pembuatan Laporan Daftar Wajib Pajak Perkecamatan dan Perkelurahan
+11. Pembuatan Laporan Daftar Ketetapan Pajak Perkecamatan dan Perkelurahan
+12. Pembuatan Laporan Daftar Penerimaan Pajak Perkecamatan dan Perkelurahan
+13. Pembuatan Laporan Daftar Piutang Pajak Perkecamatan dan Perkelurahan
+14. Pembuatan Laporan Rekapitulasi Piutang Pajak Perkecamatan dan Perkelurahan
+15. Pembuatan Laporan Daftar Pendapatan diterima dimuka
+16. Pembuatan Menu Saldo Awal Retribusi Daerah pada menu pembukuaan dan pelaporan.
+17. Perbaikan Import STS ke Simda Keuangan sudah masuk ke jurnal semua di SIMDA Keuangan
+18. Pembuatan Menu SSRD Masa di Menu Bendahara Penerima
+19. Pembuatan Menu SSRD Kurang Bayar di Menu Bendahara Penerima
+20. Pembuatan Menu SSRD Sanksi di Menu Bendahara Penerima
+21. Pembuatan Menu STRD di Menu Penagihan
+22. Pembuatan Menu Parameter Mapping Rekening Retribusi untuk Denda, Bunga dan Kenaikan
+23. Pembuatan Menu Eksport Ketetapan Pendapatan ke SIMDA Keuangan
+24. Pembuatan Laporan STRD
+25  Pembuatan Laporan Register STTRD
+26. Pembuatan Laporan BPPS Retribusi
+27. Pembuatan Laporan Rekapitulasi SPTRD
+28. Penambahan Otorisasi User Menu Bukti Penerimaan Pajak, SSRD dan STRD.
+29. Penambahan Laporan Daftar SKPD Official Assesment dan Pembayaran.
+30. Penambahan Laporan Daftar Rincian SSPD
+31. Penambahan Laporan Register STPD dan Pembayaran.
+32. Penambahan Laporan Daftar SKPD Self Assesment Pembayaran
+33. Penambahan Laporan Daftar SKPD Official Assesment Pembayaran
+34. Perbaikan Parameter Laporan Surat Tagihan Pajak Daerah
+
+Versi : 1.2.0.9
+========================================================================================
+
+1. Data Eksport Import SSRD sudah berhasil di import, perbaikan sudah dilakukan pada Strode Procedure.
+2. Tarif Pajak Penerangan Jalan sudah diperbaiki, tidak lagi tertukar dengan Pajak Terhutang.
+3. Laporan Pengukuhan sudah bisa dibuka dari menu laporan, Kesalahan ada diparameter.
+4. Laporan Kartu Data pada parameter laporan sudah sesuai dengan parameter diaplikasi.
+5. Penandatangan untuk Retribusi disesuaikan dengan penandatangan untuk Pajak
+6. Pada Menu Bendahara Penerimaan, dibuat Menu Penerimaan untuk megakomodir Pajak yang tidak menggunakan Ketetapan
+7. Laporan SPTPD pada Nomor SPTPD sudah bisa dibuka jika menggunakan 3 digit penomoran.
+8. Laporan Nota Perhitungan Official Assesment sudah diperbaiki dan disingkronkan dengan sub repot nota perhitungan
+9. Laporan Surat Teguran SPTPD dari menu Laporan sudah bisa dibuka dan sudah disamakan dengan parameter.
+10. Proses Saldo Piutang Akhir sudah dapat diproses dan sudah disesuaikan dengan data yang ada.
+11. Pada Menu Bendahara Penerimaan Lainnya, dibuat Menu Penerimaan untuk mengakomodir Pendapatan lainnya.
+12. Laporan Tanda Terima Pendaftaran Retribusi sudah sesuai dengan data yang diinput.
+13. Menu Kosongkan data Pajak dan Retribusi sudah dapat diproses.
+14.Pada Menu  bendahara penerimaan lain-lainnya dibuat Menu STS untuk mengakomodir Setoran yang langsung ke Bank, tidak melalui bendahara penerimaan.
+15. Pembuatan SOP Simda Pendapatan disesuaikan dengan Aplikasi versi terbaru.
+
+
+Versi : 1.2.0.8
+====================================================================================================================================================================================
+1.  Pembuatan Menu Perbandingan Database 
+2.  Pemberian button cetak + Laporan Validasi SSPD untuk laporan sspd bervalidasi (Belum)
+3.  Perbaikan koneksi Menu Import SISMIOP PBB ke Aplikasi SimDa Pendapatan.
+4. Perbaikan data ambilan SKPD KB yang berada di STPD Rincian sudah sesuai dengan nilai SKPD KB (Pajak Terhutang - Nilai Setoran)
+5. Penambahan Nomor ID untuk Kode Perhitungan di SPTPD Reklame pada Perhitungan 2, agar Laporan Nota Perhitungan pada Lembar Perhitungan Reklame Tidak Double.
+6. Penambahan Field Pengurangan di menu SPTPD - BPHTB
+7. Penambahan Menu Cari untuk NOP BPHTB.
+8. Penambahan Menu Eksport dari SIMDA Pendapatan ke Direktorat Jendral Pajak
+9. Menu Eksport - Import Retribusi Pendaftaran, Pendataan, Penetapan, Setoran, Bukti Penerimaan dan STS
+
+
+
+Versi : 1.2.0.7 
+=====================================================================================================================================================================================
+
+1. Penambahan Field Persamaan pada Menu Setting, yang berfungsi sebagai informasi pada Laporan Pajak 
+   Reklame Nota Perhitungan Official Assesment
+2. Perbaikan Laporan Laporan Pajak Reklame Nota Perhitungan Official Assesment, ditambah Lampiran
+   Perhitungan pada Laporan Nota Perhitungan Official Assesment
+3. Perbaikan Filterisasi pada menu Panggilan Laporan Kartu Data dan Ditambah Parameter.
+4. Perbaikan Laporan Rekapitulasi Pajak Tahunan.
+5. Perbaikan Seluruh Laporan Kartu Data Pajak, Penambahan Parameter Kode Usaha.
+6. Pembuatan Menu Backup - Restore
+
+
+Versi : 1.2.0.6 | Compile Tanggal 07 Februari 2014 
+===================================================================
+
+1.  Pada Form F_SPTPD, pada tombol simpan ditambah proses untuk pembulatan dua digit dibelakang koma.
+2.  Tombol Pilih di Menu Jenis Retribusi, sudah ditambah rekening 5, rekening sudah berfungsi  sampai rekening 5.
+3.  Inputan STS ditambahkan kontrol peringatan jika nama bank belum diisi (Nama Bank Tidak BolehKosong).
+4.  Perbaikan untuk [SP_Ta_Penerimaan_Pendapatan_Rinc_Total_Rekening] agar Pengambilan rincian di STS jumlahnya tidak terhitung dua kali. 
+5.  Update Length Nomor STS menjadi 50 disamakan dengan Nomor STS Simda Keuangan.
+6.  SPTPD dan Data Sanksi sudah bisa terhapus ketika menjalankan menu kosongkan data.
+7.  Perbaikan PreNumber, Nomor Dokumen sudah muncul ketika pilih setting otomatis.
+8.  Penanda field yang wajib di isi pada menu pendaftaran. 
+9.  Perbaikan Laporan BKU Penerimaan
+10. Perbaikan Laporan SKPD Tambahan
+11. Update Stored Procedure untuk Laporan Daftar NPPD Self Asesment
+12. Update Stored Procedure untuk Laporan Daftar SKPD Self Assesment
+13. Update Stored Procedure untuk Laporan Daftar SSRD
+14. Update Stored Procedure untuk Laporan Nota Perhitungan Official Assesment
+15. Update Stored Procedure untuk Laporan Penerimaan Piutang
+16. Update Stored Procedure untuk Laporan Register Bukti Penerimaan
+17. Update Stored Procedure untuk Laporan Register SPJ Pendapatan 
+18. Update Stored Procedure untuk Laporan STPD
+19. Update Stored Procedure Saldo Piutang
+20. Update Stored Procedure Ta_Penerimaan_Pendapatan_Rincian, untuk Total Rekening
+21. Perbaikan Inputan Penandatangan dokumen saat memilih dokumen SPTRD
+22. Perbaikan Untuk rekening sanksi, sudah muncul sampai dengan rekening level tiga. 
+23. Perbaikan PreNumber, Proses Penyimpanan penomoran otomatis dibuat ketika tombol simpan diklik.
+24. Inputan rincian nota perhitungan, untuk yg rincian lebih dari satu, data sudah tidak berulang.
+25. Inputan setoran SSPD sanksi yg berasal dari saldo awal piutang sanksi, Rincian SSPD sudah otomatis muncul.
+26. Inputan STPD yang berasal dari SKPD, pada saat melakukan input rincian data nya sudah tersedia.
+27. Pada inputan nota perhitungan menu sanksi dihilangkan karena pada Nota Perhitungan tidak ada menu sanksi,
+    menu Sanksi muncul saat pembuatan nota tambahan, nota jabatan dan STPD.
+28. Menu SKPD-KB yang sudah terbit STPD tidak dapat dilakukan pelunasan, karena setelah terbit STPD maka SKPD-KB dianggap tidak ada lagi.         
+29. Menu SSPD Sanksi atas SKPD Jabatan sudah bisa diinput SSPD Rinciannya.
+30. Menu SSPD Sanksi atas SKPD Tambahan sudah bisa dilakukan.
+31. Pembuatan STPD yg berasal dari SKPD-T sudah bisa dilakukan, rincian pendapatan dan sanksi sudah bisa otomatis muncul.
+
+ Versi : 1.2.0.5
+===================================================================
+
+1. Penghapusan field No.Cek dan Tgl.Cek pada Table Ta_Validasi_SSPD
+2. Perbaikan menu Validasi SSPD
+3. Pembuatan menu cari pada menu SPTRD
+4. Pembuatan menu cari pada menu SSPD
+5. Perbaikan Laporan SPTRD
+6. Perbaikan Stored Procedure SP_Qry_Ta_Nota_Self
+
+Versi : 1.2.0.4
+===================================================================
+
+1.  Pembuatan Export Import dari Aplikasi Sismiop ke Simda Pendapatan.
+2.  Pembuatan SP dan Laporan yang berkaitan dengan Laporan PBB
+3.  Pembuatan Laporan Rincian SPPT yang terbit
+4.  Pembuatan Laporan Daftar Relaisasi Penerimaan Pajak Bumi dan Bangunan
+5.  Pembuatan Laporan Daftar Rincian Penerimaan Realisasi Pajak Bumi dan Bangunan
+6.  Pembuatan Laporan Daftar SPPT yang belum dibayar
+7.  Pembuatan Laporan Daftar Rincian SPPT yang belum dibayar
+8.  Pembuatan Laporan Realisasi Penerimaan PBB Sektor Perdesaan dan Perkotaan 
+9.  Membuat Setting Aplikasi untuk menu perhitungan Pajak Reklame
+10. Membuat penomoran Dokumen SPTPD, SKPD, Nota Perhitungan, SSPD secara otomatis.
+11. Pembuatan Setting Pajak Reklame berdasarkan Nilai Perhitungan.
+12. Pembuatan Export Import Pendaftaran dan pendataan Retribusi
+13. Pembuatan menu searcing/cari untuk menu SKRD
+14. Pembuatan menu searcing/cari untuk menu SSRD
+15. Perbaikan Stored Procedure SSPD Sanksi Rincian, tidak bisa disimpan karena ada double data.
